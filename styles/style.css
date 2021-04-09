@@ -16,6 +16,11 @@ body {
     padding-left: 32px;
     padding-right: 70px;
     margin-bottom: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
 }
 
 .menu-button {
@@ -107,6 +112,21 @@ body {
 
 .sidebar {
     padding-left: 32px;
+    position: fixed;
+    left: 0;
+    top: 114px;
+    height: calc(100% - 114px);
+    overflow-y: auto;
+    width: 18%;
+    background-color: #fff;
+}
+
+.content {
+    width: 100%;
+    height: 450px;
+    margin-top: 85px;
+    padding-left: 20%;
+    padding-top: 30px;
 }
 
 .nav-menu {
@@ -118,8 +138,6 @@ body {
 
 .nav-item {
     margin-bottom: 28px;
-    
-    
 }
 
 .nav-link {
@@ -156,4 +174,24 @@ body {
     font-size: 18px;
     line-height: 23px;
     margin-bottom: 30px;
+}
+
+.channel-title {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #19202c;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 33px;
+}
+
+.channel-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.channel-text {
+    margin-left: 20px;
 }
