@@ -1,7 +1,7 @@
 # Youtube-Concept
 
-##Normalize.css
-##google fonts
-##svgsprit.es
-##swiperjs
+## Normalize.css
+## google fonts
+## svgsprit.es
+## swiperjs
 
