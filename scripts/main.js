@@ -5,8 +5,8 @@ const swiper = new Swiper('.channel-slider', {
 
   // Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.channel-button-next',
+    prevEl: '.channel-button-prev',
   },
 
 
