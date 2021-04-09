@@ -13,6 +13,7 @@ body {
     padding-bottom: 20px;
     padding-left: 32px;
     padding-right: 70px;
+    margin-bottom: 30px;
 }
 
 .menu-button {
@@ -58,6 +59,7 @@ body {
     padding-bottom: 12px;
     padding-left: 23px;
     padding-right: 23px;
+    width: 100%;
 }
 
 .button-search {
@@ -99,4 +101,37 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+
+.sidebar {
+    padding-left: 32px;
+}
+
+.nav-menu {
+    margin-top: 0;
+    margin-bottom: 60px;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.nav-item {
+    margin-bottom: 28px;
+    
+    
+}
+
+.nav-link {
+    color: #898989;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item .icon {
+    fill: #898989;
+}
+
+.nav-text {
+    margin-left: 13px;
+
 }
