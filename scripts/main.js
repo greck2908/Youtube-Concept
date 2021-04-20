@@ -2,6 +2,7 @@ const swiper = new Swiper('.channel-slider', {
   // Optional parameters
   loop: true,
   slidesPerView: 6,
+  spaceBetween: 5,
 
   // Navigation arrows
   navigation: {
